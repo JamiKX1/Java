@@ -21,6 +21,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        private static final String AA = "草泥马";
+        private static final String BB = "fuck";
         RequestConfig requestConfig = RequestConfig.custom().setCookieSpec(CookieSpecs.STANDARD_STRICT).build();
         CloseableHttpClient httpClient = HttpClients.custom().setDefaultRequestConfig(requestConfig).build();
 
